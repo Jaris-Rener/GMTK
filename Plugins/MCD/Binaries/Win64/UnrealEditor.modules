@@ -1,0 +1,8 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"CameraDynamics": "UnrealEditor-CameraDynamics.dll",
+		"CameraDynamicsEditor": "UnrealEditor-CameraDynamicsEditor.dll"
+	}
+}
