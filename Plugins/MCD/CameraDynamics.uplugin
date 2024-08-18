@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.1",
+	"FriendlyName": "Modular Camera Dynamics",
+	"Description": "Dynamic camera system designed for fast iteration and modularity of camera behaviours.",
+	"Category": "Gameplay",
+	"CreatedBy": "Evelyn Schwab",
+	"CreatedByURL": "https://github.com/EvelynSchwab",
+	"DocsURL": "https://esdocs.notion.site/Modular-Camera-Dynamics-61440a58c552442094de154f588ea436",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/507baaee0fe940ae81e28c81f8bb1983",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CameraDynamics",
+			"Type": "Runtime",
+			"LoadingPhase": "EarliestPossible",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "CameraDynamicsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
